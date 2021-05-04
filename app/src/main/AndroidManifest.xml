@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Projeto_aula_brq_android">
-        <activity android:name=".SegundaTela"></activity>
+        <activity android:name=".TerceiraTela"></activity>
+        <activity android:name=".SegundaTela" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
