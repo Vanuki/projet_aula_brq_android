@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import br.com.brq.projeto_aula_brq_android.OrientaçãoObjeto.Cor
+import br.com.brq.projeto_aula_brq_android.OrientaçãoObjeto.Cores.Cor
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,11 +14,10 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
-
         fun pintar(cor: Cor){
             println("Pintar com a cor ${cor}")
         }
+
 
 
 
